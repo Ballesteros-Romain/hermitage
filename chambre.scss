@@ -1,0 +1,53 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam', arial;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.bg-custom {
+    background-color: rgb(255, 228, 196);
+    padding: 15px;
+    color: #2e8189;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-bottom: 3px solid #2e8189;
+
+}
+
+.breadcrumb {
+    margin-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #2e8189;
+
+    &:hover {
+        color: #2e8189;
+}
+    &::after {
+        color: #2e8189;
+    }
+}
+img {
+    border-radius: 15px;
+}
+h4,p {
+    color: #2e8189;
+}
+.container {
+    background-color: bisque;
+}
+
+p {
+    font-size: 1.2em;
+}
+h4 {
+    font-size: 1.7em;
+}
